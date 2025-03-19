@@ -18,7 +18,7 @@ function addItems() { // criei a função, porque ao selecionar o input, gostari
   lista.addEventListener('click', function(event) {
     // Verifica se o item clicado é um <li>
     if (event.target.tagName === 'LI') {
-        event.target.style.color = 'red'; // Muda a cor do texto para vermelho
+        event.target.style.color = '#292929'; // Muda a cor do texto para vermelho
     }
 });
 
