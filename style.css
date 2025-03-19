@@ -1,7 +1,7 @@
 * {
   background: #121212; /* Fundo escuro moderno */
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif; /* Fonte mais moderna */
   font-size: 14px;
   box-sizing: border-box;
 }
@@ -30,6 +30,7 @@ input {
   background: #292929; /* Cinza médio */
   color: white;
   border: 1px solid #444;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease;
 }
 
 input:focus {
@@ -40,7 +41,7 @@ input:focus {
 
 /* Estilização da lista */
 ul {
-  border:none;
+  border: none;
   list-style: none;
   width: 100%;
   padding: 0;
@@ -48,7 +49,7 @@ ul {
 }
 
 li {
-  border:none;
+  border: none;
   background: #292929;
   padding: 10px;
   margin: 5px 0;
@@ -96,4 +97,15 @@ h1 {
   font-size: 30px;
   color: #ccc;
   align-self: flex-start;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  input, button {
+    width: 100%;
+  }
 }
