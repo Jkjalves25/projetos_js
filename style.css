@@ -1,0 +1,99 @@
+* {
+  background: #121212; /* Fundo escuro moderno */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 380px;
+  padding: 40px;
+  background: #1e1e1e; /* Cinza escuro para contraste */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 100px auto;
+}
+
+/* Estilização do input */
+input {
+  width: 300px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  background: #292929; /* Cinza médio */
+  color: white;
+  border: 1px solid #444;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00d4ff; /* Azul neon */
+  box-shadow: 0 0 8px rgba(0, 212, 255, 0.7);
+}
+
+/* Estilização da lista */
+ul {
+  border:none;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 15px 0;
+}
+
+li {
+  border:none;
+  background: #292929;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #00d4ff;
+  color: black;
+}
+
+/* Botão posicionado abaixo da lista */
+button {
+  width: 300px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  background: #00d4ff; /* Azul neon */
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0099cc;
+}
+
+/* Estilização dos textos */
+label {
+  background: none;
+  font-size: 16px;
+  color: #ccc;
+  align-self: flex-start;
+}
+
+h1 {
+  background: none;
+  font-size: 30px;
+  color: #ccc;
+  align-self: flex-start;
+}
